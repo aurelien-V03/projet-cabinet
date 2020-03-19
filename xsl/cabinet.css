@@ -1,0 +1,29 @@
+
+
+
+/* TABLEAU INFORMATIONS PATIENTS */
+table
+{
+    border:1px black solid;
+}
+
+
+td
+{
+     border:1px black solid;
+     padding: 5px;
+}
+
+.titre{
+ font-weight: bold;
+ 
+}
+
+
+/* PAGES fichePatient.xml*/
+
+#infoPatient{
+    border: 1px black solid;
+    padding-left : 2%;
+}
+

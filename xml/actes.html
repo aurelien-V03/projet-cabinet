@@ -1,0 +1,32 @@
+<html xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" xmlns:cbn="http://www.ujf-grenoble.fr/l3miage/medical">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>visites.xsl</title>
+<script type="text/javascript">
+                    function openFacture(prenom, nom, actes) {
+                    var width  = 500;
+                    var height = 300;
+                    if(window.innerWidth) {
+                    var left = (window.innerWidth-width)/2;
+                    var top = (window.innerHeight-height)/2;
+                    }
+                    else {
+                    var left = (document.body.clientWidth-width)/2;
+                    var top = (document.body.clientHeight-height)/2;
+                    }
+                    var factureWindow = window.open('','facture','menubar=yes, scrollbars=yes, top='+top+', left='+left+', width='+width+', height='+height+'');
+                    factureText = "Facture pour : " + prenom + " " + nom;
+                    factureWindow.document.write(factureText);
+                    }      
+                    
+                </script>
+<link rel="stylesheet" type="text/css" href="cabinet.css">
+</head>
+<body>
+<p>
+<span class="titre">Infirmiere : </span>
+</p>
+<p>
+<span class="titre">Aujourd'hui nombre de patients :</span>0</p>
+</body>
+</html>

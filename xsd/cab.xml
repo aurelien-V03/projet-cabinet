@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ns1:cabinet
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ns1='http://www.ujf-grenoble.fr/l3miage/medical'
+    xsi:schemaLocation='http://www.ujf-grenoble.fr/l3miage/medical cabinet.xsd'>
+    <ns1:nom></ns1:nom>
+    <ns1:adresse>
+        <ns1:étage></ns1:étage>
+        <ns1:numéro></ns1:numéro>
+        <ns1:rue></ns1:rue>
+        <ns1:ville></ns1:ville>
+        <ns1:codePostal></ns1:codePostal>
+    </ns1:adresse>
+    <ns1:infirmiers>
+        <ns1:infirmier id="">
+            <ns1:nom></ns1:nom>
+            <ns1:prénom></ns1:prénom>
+            <ns1:photo></ns1:photo>
+        </ns1:infirmier>
+        <ns1:infirmier id="">
+            <ns1:nom></ns1:nom>
+            <ns1:prénom></ns1:prénom>
+            <ns1:photo></ns1:photo>
+        </ns1:infirmier>
+        <ns1:infirmier id="">
+            <ns1:nom></ns1:nom>
+            <ns1:prénom></ns1:prénom>
+            <ns1:photo></ns1:photo>
+        </ns1:infirmier>
+    </ns1:infirmiers>
+    <ns1:patients>
+        <ns1:patient>
+            <ns1:nom></ns1:nom>
+            <ns1:prénom></ns1:prénom>
+            <ns1:sexe></ns1:sexe>
+            <ns1:naissance></ns1:naissance>
+            <ns1:numéro></ns1:numéro>
+            <ns1:adresse>
+                <ns1:étage></ns1:étage>
+                <ns1:numéro></ns1:numéro>
+                <ns1:rue></ns1:rue>
+                <ns1:ville></ns1:ville>
+                <ns1:codePostal></ns1:codePostal>
+            </ns1:adresse>
+            <ns1:visite date="" intervenant="">
+                <ns1:acte id=""></ns1:acte>
+            </ns1:visite>
+        </ns1:patient>
+        <ns1:patient>
+            <ns1:nom></ns1:nom>
+            <ns1:prénom></ns1:prénom>
+            <ns1:sexe></ns1:sexe>
+            <ns1:naissance></ns1:naissance>
+            <ns1:numéro></ns1:numéro>
+            <ns1:adresse>
+                <ns1:étage></ns1:étage>
+                <ns1:numéro></ns1:numéro>
+                <ns1:rue></ns1:rue>
+                <ns1:ville></ns1:ville>
+                <ns1:codePostal></ns1:codePostal>
+            </ns1:adresse>
+            <ns1:visite date="" intervenant="">
+                <ns1:acte id=""></ns1:acte>
+            </ns1:visite>
+        </ns1:patient>
+        <ns1:patient>
+            <ns1:nom></ns1:nom>
+            <ns1:prénom></ns1:prénom>
+            <ns1:sexe></ns1:sexe>
+            <ns1:naissance></ns1:naissance>
+            <ns1:numéro></ns1:numéro>
+            <ns1:adresse>
+                <ns1:étage></ns1:étage>
+                <ns1:numéro></ns1:numéro>
+                <ns1:rue></ns1:rue>
+                <ns1:ville></ns1:ville>
+                <ns1:codePostal></ns1:codePostal>
+            </ns1:adresse>
+            <ns1:visite date="" intervenant="">
+                <ns1:acte id=""></ns1:acte>
+            </ns1:visite>
+        </ns1:patient>
+    </ns1:patients>
+
+</ns1:cabinet>
